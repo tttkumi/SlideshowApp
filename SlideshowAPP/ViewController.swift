@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
     
     
-    let imagegarally = ["img1.jpg", "img2.jpg", "img3.jpg"]
+    let imagegarally = ["img1.jpg", "img2.jpg", "img4.jpg"]
     var imageslide: Int = 0
     var timer: Timer!
     var count = 0
@@ -29,89 +29,89 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-       
+        
         ImageView1.image = UIImage(named: "img1.jpg")
         
         ImageView1.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(ViewController.imageViewTapped(_:))))
-       
-    
-    }
-        func imageViewTapped(_ sender: UITapGestureRecognizer) {
-            performSegue(withIdentifier: "gotodetail", sender: nil)
-        }
         
+        
+    }
+    func imageViewTapped(_ sender: UITapGestureRecognizer) {
+        performSegue(withIdentifier: "gotodetail", sender: nil)
+    }
     
-
-
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
         
     }
-       
-    func slideimage(timer: Timer){
     
-    imageslide = imageslide + 1
-       
+    func slideimage(timer: Timer){
+        
+        imageslide = imageslide + 1
+        
         if imageslide > 2{
             imageslide = 0
         }
         
+        
+        ImageView1.image = UIImage(named: imagegarally [imageslide] )
+    }
     
-    ImageView1.image = UIImage(named: imagegarally [imageslide] )
-        }
     
     
-
     @IBAction func StartPausebutton(_ sender: Any) {
         
-    
+        
         
         if !running {
-        self.timer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector
-            (slideimage), userInfo: nil, repeats: true)
-        running = true
-       
-         [StartPausebutton setTitle:@"停止" forState:UIControlStateNormal];
+            self.timer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector
+                (slideimage), userInfo: nil, repeats: true)
+            running = true
             
-    }else{
-         timer.invalidate()
-           running = false
+            StartPausebutton.setTitle("停止", for: .normal)
             
-     [StartPausebutton setTitle:@"再生" forState:UIControlStateNormal];
+        }else{
+            timer.invalidate()
+            running = false
             
-          
+            StartPausebutton.setTitle("再生", for: .normal)
+            
+            
+        }
     }
-    }
-
+    
     @IBAction func GobackButton(_ sender: Any) {
         
         if running{
             self.timer.invalidate()
         }
         
-            imageslide = imageslide - 1
-            if imageslide < 0{
-                imageslide = 2
-            }
-            
-            ImageView1.image = UIImage(named: imagegarally [imageslide] )
+        imageslide = imageslide - 1
+        if imageslide < 0{
+            imageslide = 2
         }
         
+        ImageView1.image = UIImage(named: imagegarally [imageslide] )
+    }
     
-
+    
+    
     @IBAction func GotoNextbutton(_ sender: Any) {
         
         if running{
             self.timer.invalidate()
         }
         
-       
+        
         imageslide = imageslide + 1
         if imageslide > 2{
-        imageslide = 0
+            imageslide = 0
         }
-       
+        
         ImageView1.image = UIImage(named: imagegarally [imageslide] )
     }
     
@@ -120,6 +120,6 @@ class ViewController: UIViewController {
         
         imageslideViewController.imageslide = imageslide
     }
-   
+    
     
 }
