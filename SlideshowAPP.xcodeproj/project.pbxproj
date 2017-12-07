@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E15DA711FCE8AC7007CBE39 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15DA701FCE8AC7007CBE39 /* SecondViewController.m */; };
 		5E59FD871FCC68D600CFA6ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59FD861FCC68D600CFA6ED /* AppDelegate.swift */; };
 		5E59FD891FCC68D600CFA6ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59FD881FCC68D600CFA6ED /* ViewController.swift */; };
 		5E59FD8C1FCC68D600CFA6ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E59FD8A1FCC68D600CFA6ED /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		5E59FD911FCC68D600CFA6ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E59FD8F1FCC68D600CFA6ED /* LaunchScreen.storyboard */; };
 		5E59FD9C1FCC68D700CFA6ED /* SlideshowAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59FD9B1FCC68D700CFA6ED /* SlideshowAPPTests.swift */; };
 		5E59FDA71FCC68D700CFA6ED /* SlideshowAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59FDA61FCC68D700CFA6ED /* SlideshowAPPUITests.swift */; };
+		5EDA2D8F1FD16F7500167153 /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDA2D8E1FD16F7500167153 /* img4.jpg */; };
+		5EDA2D991FD170BB00167153 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDA2D961FD170BB00167153 /* img1.jpg */; };
+		5EDA2D9A1FD170BB00167153 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDA2D971FD170BB00167153 /* img2.jpg */; };
+		5EDA2D9B1FD170BB00167153 /* img3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5EDA2D981FD170BB00167153 /* img3.JPG */; };
+		5EDA2D9D1FD3BBED00167153 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDA2D9C1FD3BBED00167153 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E15DA6F1FCE8AC7007CBE39 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5E15DA701FCE8AC7007CBE39 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5E59FD831FCC68D600CFA6ED /* SlideshowAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E59FD861FCC68D600CFA6ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E59FD881FCC68D600CFA6ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		5E59FDA21FCC68D700CFA6ED /* SlideshowAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E59FDA61FCC68D700CFA6ED /* SlideshowAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAPPUITests.swift; sourceTree = "<group>"; };
 		5E59FDA81FCC68D700CFA6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E59FDB41FCC6A1300CFA6ED /* SlideshowAPP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlideshowAPP-Bridging-Header.h"; sourceTree = "<group>"; };
+		5EDA2D8E1FD16F7500167153 /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpg; sourceTree = "<group>"; };
+		5EDA2D961FD170BB00167153 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		5EDA2D971FD170BB00167153 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		5EDA2D981FD170BB00167153 /* img3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.JPG; sourceTree = "<group>"; };
+		5EDA2D9C1FD3BBED00167153 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +91,16 @@
 		5E59FD7A1FCC68D600CFA6ED = {
 			isa = PBXGroup;
 			children = (
+				5E15DA6F1FCE8AC7007CBE39 /* SecondViewController.h */,
+				5E15DA701FCE8AC7007CBE39 /* SecondViewController.m */,
 				5E59FD851FCC68D600CFA6ED /* SlideshowAPP */,
 				5E59FD9A1FCC68D700CFA6ED /* SlideshowAPPTests */,
 				5E59FDA51FCC68D700CFA6ED /* SlideshowAPPUITests */,
 				5E59FD841FCC68D600CFA6ED /* Products */,
+				5EDA2D8E1FD16F7500167153 /* img4.jpg */,
+				5EDA2D961FD170BB00167153 /* img1.jpg */,
+				5EDA2D971FD170BB00167153 /* img2.jpg */,
+				5EDA2D981FD170BB00167153 /* img3.JPG */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +120,11 @@
 				5E59FD861FCC68D600CFA6ED /* AppDelegate.swift */,
 				5E59FD881FCC68D600CFA6ED /* ViewController.swift */,
 				5E59FD8A1FCC68D600CFA6ED /* Main.storyboard */,
+				5EDA2D9C1FD3BBED00167153 /* SecondViewController.swift */,
 				5E59FD8D1FCC68D600CFA6ED /* Assets.xcassets */,
 				5E59FD8F1FCC68D600CFA6ED /* LaunchScreen.storyboard */,
 				5E59FD921FCC68D600CFA6ED /* Info.plist */,
+				5E59FDB41FCC6A1300CFA6ED /* SlideshowAPP-Bridging-Header.h */,
 			);
 			path = SlideshowAPP;
 			sourceTree = "<group>";
@@ -193,6 +215,7 @@
 				TargetAttributes = {
 					5E59FD821FCC68D600CFA6ED = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					5E59FD961FCC68D700CFA6ED = {
@@ -233,8 +256,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E59FD911FCC68D600CFA6ED /* LaunchScreen.storyboard in Resources */,
+				5EDA2D991FD170BB00167153 /* img1.jpg in Resources */,
 				5E59FD8E1FCC68D600CFA6ED /* Assets.xcassets in Resources */,
+				5EDA2D8F1FD16F7500167153 /* img4.jpg in Resources */,
+				5EDA2D9A1FD170BB00167153 /* img2.jpg in Resources */,
 				5E59FD8C1FCC68D600CFA6ED /* Main.storyboard in Resources */,
+				5EDA2D9B1FD170BB00167153 /* img3.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EDA2D9D1FD3BBED00167153 /* SecondViewController.swift in Sources */,
+				5E15DA711FCE8AC7007CBE39 /* SecondViewController.m in Sources */,
 				5E59FD891FCC68D600CFA6ED /* ViewController.swift in Sources */,
 				5E59FD871FCC68D600CFA6ED /* AppDelegate.swift in Sources */,
 			);
@@ -412,10 +441,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SlideshowAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.takumi.maeda.SlideshowAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideshowAPP/SlideshowAPP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +456,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SlideshowAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.takumi.maeda.SlideshowAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideshowAPP/SlideshowAPP-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +539,7 @@
 				5E59FDAD1FCC68D700CFA6ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E59FDAE1FCC68D700CFA6ED /* Build configuration list for PBXNativeTarget "SlideshowAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +548,7 @@
 				5E59FDB01FCC68D700CFA6ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E59FDB11FCC68D700CFA6ED /* Build configuration list for PBXNativeTarget "SlideshowAPPUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +557,7 @@
 				5E59FDB31FCC68D700CFA6ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
