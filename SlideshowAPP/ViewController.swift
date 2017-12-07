@@ -120,6 +120,8 @@ class ViewController: UIViewController {
         
         imageslideViewController.imageslide = imageslide
     }
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+    }
     
     
 }
